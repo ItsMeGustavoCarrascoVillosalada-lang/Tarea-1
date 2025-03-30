@@ -10,20 +10,15 @@ import java.util.Scanner;
  */
 public class Eje3_DescomponerIGV {
     public static void main(String[] args) {
-       
-        Scanner lector = new Scanner(System.in);
-        final double IGV_PORCENTAJE = 0.18;
-
-        System.out.print("Ingrese el monto total: ");
-        double montoTotal = lector.nextDouble();
-
-        double montoSinIGV = montoTotal / (1 + IGV_PORCENTAJE);
-        double igv = montoTotal - montoSinIGV;
-
-        System.out.printf("Monto sin IGV: %.2f\n", montoSinIGV);
-        System.out.printf("IGV (18%%): %.2f\n", igv);
-        System.out.printf("Monto total: %.2f\n", montoTotal);
-
-        sc.close();
+        double IGV,Monpagar,Montotal;
+        Scanner lector= new Scanner(System.in);
+        
+        System.out.printf("Ingrese el monto total \n");
+        Montotal=lector.nextDouble();
+        Monpagar=Montotal/1.18;
+        IGV=Monpagar*0.18;
+        
+        System.out.println("El monto a pagar es:" +Monpagar);
+        System.out.println("El IGV es de: "+IGV);
     }
 }
