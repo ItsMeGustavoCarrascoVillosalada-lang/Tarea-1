@@ -3,13 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package tareasemana1;
-import java.util.Scanner; //permite la entrada de datos por teclado.
+import java.util.Scanner; 
 /**
  *
  * @author THE_G
  */
 public class Eje1_CalculoAreaCuadrado {
-    public static void main(String[] args) { //Dentro del método main, se crea un objeto de tipo Scanner para capturar el valor ingresado por el usuario.
+    public static void main(String[] args) { 
         double area,lado;
         Scanner input = new Scanner(System.in);
         //solicitar el lado del cuadrado
