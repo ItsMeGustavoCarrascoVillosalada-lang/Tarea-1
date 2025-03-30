@@ -13,15 +13,15 @@ public class Eje2_VolumendelCilindro {
         double radio,altura,volumen;
         Scanner scanner = new Scanner(System.in);
         
-        // Solicitar el radio y la altura al usuario
+        // Solicitar radio 
         System.out.print("Ingrese el radio del cilindro: ");
         radio = scanner.nextDouble();
-        
+        // Solicitar la altura 
         System.out.print("Ingrese la altura del cilindro: ");
         altura = scanner.nextDouble();
         
         // Calcular el volumen
-        volumen = Math.PI * Math.pow(radio, 2) * altura; //math es la clase
+        volumen = Math.PI * Math.pow(radio, 2) * altura; 
         
         // Mostrar el resultado
         System.out.printf("El volumen del cilindro es: %.2f\n", volumen);
