@@ -11,11 +11,11 @@ import java.util.Scanner;
 public class Eje3_DescomponerIGV {
     public static void main(String[] args) {
        
-        Scanner sc = new Scanner(System.in);
+        Scanner lector = new Scanner(System.in);
         final double IGV_PORCENTAJE = 0.18;
 
         System.out.print("Ingrese el monto total: ");
-        double montoTotal = sc.nextDouble();
+        double montoTotal = lector.nextDouble();
 
         double montoSinIGV = montoTotal / (1 + IGV_PORCENTAJE);
         double igv = montoTotal - montoSinIGV;
