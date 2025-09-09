@@ -941,7 +941,7 @@
         </mxCell>
         <mxCell id="UFVNWJQGnxnsQ-EsTise-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="UFVNWJQGnxnsQ-EsTise-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="210" as="sourcePoint" />
+            <mxPoint x="470" y="200" as="sourcePoint" />
             <mxPoint x="580" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
