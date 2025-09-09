@@ -569,7 +569,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Wj8ns0lZprf3CEDbqcQ8" name="Página-2">
-    <mxGraphModel dx="1340" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1407" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -667,7 +667,7 @@
           <mxGeometry x="360" y="490" width="180" height="10" as="geometry" />
         </mxCell>
         <mxCell id="GbBaamxe7wp4p92IOW2o-35" value="Profesor" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1050" width="180" height="120" as="geometry" />
+          <mxGeometry x="50" y="940" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GbBaamxe7wp4p92IOW2o-36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="GbBaamxe7wp4p92IOW2o-35">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -709,7 +709,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GbBaamxe7wp4p92IOW2o-48" value="clase" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1050" width="180" height="150" as="geometry" />
+          <mxGeometry x="380" y="940" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="GbBaamxe7wp4p92IOW2o-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="GbBaamxe7wp4p92IOW2o-48">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -868,8 +868,8 @@
         </mxCell>
         <mxCell id="UFVNWJQGnxnsQ-EsTise-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GbBaamxe7wp4p92IOW2o-58" target="GbBaamxe7wp4p92IOW2o-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="990" as="sourcePoint" />
-            <mxPoint x="320" y="940" as="targetPoint" />
+            <mxPoint x="280" y="880" as="sourcePoint" />
+            <mxPoint x="330" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UFVNWJQGnxnsQ-EsTise-8" value="Director técnico&amp;nbsp;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -986,6 +986,93 @@
         </mxCell>
         <mxCell id="UFVNWJQGnxnsQ-EsTise-36" value="id_curso" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="350" y="740" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-38" value="2.-Un alumno puede inscribirse en varios talleres, y un taller puede tener varios alumnos" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="650" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-39" value="3.-Un autor puede escribir varios libros, un libro puede tener varios autores&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Un libro pertenece a una sola editorial, y una editorial publica varios libros " style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1860" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-40" value="autor" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1940" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-41" value="libro&amp;nbsp;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1940" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-42" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-43" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFVNWJQGnxnsQ-EsTise-40" target="UFVNWJQGnxnsQ-EsTise-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="2070" as="sourcePoint" />
+            <mxPoint x="40" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-44" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFVNWJQGnxnsQ-EsTise-42" target="UFVNWJQGnxnsQ-EsTise-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="2060" as="sourcePoint" />
+            <mxPoint x="260" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-45" value="Alumno&amp;nbsp;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1291" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-46" value="curso&amp;nbsp;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1291" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-47" value="tiene&amp;nbsp;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1281" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-48" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFVNWJQGnxnsQ-EsTise-56" target="UFVNWJQGnxnsQ-EsTise-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-161.99630482420025" y="1236.5688529790148" as="sourcePoint" />
+            <mxPoint x="-60" y="1281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-51" value="nombre_alu" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-52" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.422;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UFVNWJQGnxnsQ-EsTise-51" target="UFVNWJQGnxnsQ-EsTise-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="1351" as="sourcePoint" />
+            <mxPoint y="1351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-53" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UFVNWJQGnxnsQ-EsTise-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1261" as="sourcePoint" />
+            <mxPoint x="70" y="1211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-55" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UFVNWJQGnxnsQ-EsTise-45" target="UFVNWJQGnxnsQ-EsTise-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="1291" as="sourcePoint" />
+            <mxPoint x="70" y="1211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-54" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1181" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="UFVNWJQGnxnsQ-EsTise-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-161.99630482420025" y="1236.5688529790148" as="sourcePoint" />
+            <mxPoint x="-70" y="1291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-56" value="cod_alu" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="1210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-58" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UFVNWJQGnxnsQ-EsTise-45" target="UFVNWJQGnxnsQ-EsTise-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1350" as="sourcePoint" />
+            <mxPoint x="270" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFVNWJQGnxnsQ-EsTise-59" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFVNWJQGnxnsQ-EsTise-47" target="UFVNWJQGnxnsQ-EsTise-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1440" as="sourcePoint" />
+            <mxPoint x="320" y="1440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
